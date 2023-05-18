@@ -1,0 +1,9 @@
+const nome = prompt('Qual o seu nome?');
+document.body.innerHTML = `Olá, <strong>${nome}</strong>. Seja bem-vindo(a) </br>`;
+document.body.innerHTML += `Seu nome tem <strong>${nome.length} </strong> letras </br>`;
+document.body.innerHTML += `A segunda letra do seu nome é <strong>${nome[1]}</strong> </br>`;
+document.body.innerHTML += `O  índice da letra <strong>s</strong> é o ${nome.indexOf('s')}</br>`;
+document.body.innerHTML += `As 3 últimas palavras do seu nome são <strong>${nome.slice(-3)}</strong> </br>`;
+document.body.innerHTML += `As palavras do seu nome são <strong>${nome.split('')}</strong> </br>`;
+document.body.innerHTML += `Seu nome em letra minuscula <strong>${nome.toLowerCase()}</strong> </br>`;
+document.body.innerHTML += `Seu nome em letra maiuscula <strong>${nome.toUpperCase()}</strong> </br>`;
